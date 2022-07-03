@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    299778,       5934]
-NotebookOptionsPosition[    298847,       5912]
-NotebookOutlinePosition[    299282,       5929]
-CellTagsIndexPosition[    299239,       5926]
+NotebookDataLength[    300003,       5941]
+NotebookOptionsPosition[    299072,       5919]
+NotebookOutlinePosition[    299507,       5936]
+CellTagsIndexPosition[    299464,       5933]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -24,10 +24,15 @@ Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{
-    RowBox[{"kbT", " ", "=", " ", "1"}], ";", "                ", 
-    RowBox[{"(*", 
+    RowBox[{"kbT", " ", "=", " ", "1"}], ";"}], "                ", 
+   RowBox[{"(*", 
+    RowBox[{
      RowBox[{"T", " ", "=", " ", 
-      RowBox[{"115", "mK"}]}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"115", "mK"}]}], ",", " ", 
+     RowBox[{
+     "E0", " ", "and", " ", "Ef", " ", "are", " ", "in", " ", "units", " ", 
+      "of", " ", "\[Mu]eV"}]}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{
      RowBox[{"df", "[", 
       RowBox[{"E0_", ",", "Ef_"}], "]"}], " ", ":=", " ", 
@@ -786,8 +791,8 @@ Cell[BoxData[
    "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
-    "Different", " ", "values", " ", "of", " ", "Em", " ", "in", " ", "ueV"}],
-     "*)"}], "\[IndentingNewLine]", 
+    "Different", " ", "values", " ", "of", " ", "Em", " ", "in", " ", 
+     "\[Mu]eV"}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"Emaj", " ", "=", " ", "10"}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
@@ -1254,8 +1259,9 @@ Cell[BoxData[
         "\"\<\!\(\*SubscriptBox[\(E\), \(M\)]\)\[NotEqual]0,\[Phi]=0\>\"", 
         ",", " ", 
         "\"\<\!\(\*SubscriptBox[\(E\), \(M\)]\)=0,\[Phi]=\[Pi]/6\>\"", ",", 
-        " ", "\"\<\!\(\*SubscriptBox[\(E\), \(M\)]\)\[NotEqual]0, \
-\[Phi]=\[Pi]/6\>\""}], "}"}]}], ",", " ", 
+        " ", 
+        "\"\<\!\(\*SubscriptBox[\(E\), \(M\)]\)\[NotEqual]0, \[Phi]=\[Pi]/6\>\
+\""}], "}"}]}], ",", " ", 
      RowBox[{"PlotPoints", "\[Rule]", "10"}], ",", 
      RowBox[{"PlotRange", "\[Rule]", "All"}]}], "]"}], "\[IndentingNewLine]", 
    RowBox[{"Plot", "[", 
@@ -1896,7 +1902,8 @@ Cell[BoxData[
    3.865128446806542*^9}, {3.865649850746195*^9, 3.865649868983015*^9}, {
    3.8656501500688114`*^9, 3.865650150447818*^9}, {3.8656504318303933`*^9, 
    3.8656504448709726`*^9}, {3.8656578466027966`*^9, 
-   3.8656578692680306`*^9}},ExpressionUUID->"74692afe-5240-4ccc-87cf-\
+   3.8656578692680306`*^9}, {3.86573603972335*^9, 
+   3.8657360998620253`*^9}},ExpressionUUID->"74692afe-5240-4ccc-87cf-\
 49b420e4db00"],
 
 Cell[BoxData["1"], "Output",
@@ -5929,12 +5936,12 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 81644, 1877, 1682, "Input",ExpressionUUID->"74692afe-5240-4ccc-87cf-49b420e4db00"],
-Cell[82227, 1901, 973, 13, 23, "Output",ExpressionUUID->"cc6de5e2-02ab-4a09-b612-62a58feb3f6a"],
-Cell[83203, 1916, 52708, 978, 179, "Output",ExpressionUUID->"6cdd08bb-4e12-4f15-94be-aef9e45d8cfd"],
-Cell[135914, 2896, 52722, 978, 179, "Output",ExpressionUUID->"d22205f7-7fcb-4a7f-a7a0-3e7a3bea3117"],
-Cell[188639, 3876, 55053, 1015, 181, "Output",ExpressionUUID->"b3cfaabc-f10f-4832-b0bc-41a4e749d9bb"],
-Cell[243695, 4893, 55136, 1016, 181, "Output",ExpressionUUID->"0f354392-9343-4599-b87c-71e40f6c98a5"]
+Cell[580, 22, 81869, 1884, 1682, "Input",ExpressionUUID->"74692afe-5240-4ccc-87cf-49b420e4db00"],
+Cell[82452, 1908, 973, 13, 23, "Output",ExpressionUUID->"cc6de5e2-02ab-4a09-b612-62a58feb3f6a"],
+Cell[83428, 1923, 52708, 978, 179, "Output",ExpressionUUID->"6cdd08bb-4e12-4f15-94be-aef9e45d8cfd"],
+Cell[136139, 2903, 52722, 978, 179, "Output",ExpressionUUID->"d22205f7-7fcb-4a7f-a7a0-3e7a3bea3117"],
+Cell[188864, 3883, 55053, 1015, 181, "Output",ExpressionUUID->"b3cfaabc-f10f-4832-b0bc-41a4e749d9bb"],
+Cell[243920, 4900, 55136, 1016, 181, "Output",ExpressionUUID->"0f354392-9343-4599-b87c-71e40f6c98a5"]
 }, Open  ]]
 }
 ]

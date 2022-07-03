@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    221938,       4559]
-NotebookOptionsPosition[    221208,       4539]
-NotebookOutlinePosition[    221643,       4556]
-CellTagsIndexPosition[    221600,       4553]
+NotebookDataLength[    222140,       4564]
+NotebookOptionsPosition[    221410,       4544]
+NotebookOutlinePosition[    221845,       4561]
+CellTagsIndexPosition[    221802,       4558]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -23,10 +23,14 @@ Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{
   RowBox[{
-   RowBox[{"kbT", " ", "=", " ", "1"}], ";", "                ", 
+   RowBox[{"kbT", " ", "=", " ", "1"}], ";", "               ", 
    RowBox[{"(*", 
-    RowBox[{"T", " ", "=", " ", 
-     RowBox[{"115", "mK"}]}], "*)"}], "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"T", " ", "=", " ", 
+      RowBox[{"115", "mK"}]}], ",", " ", 
+     RowBox[{
+     "E0", " ", "and", " ", "Ef", " ", "are", " ", "in", " ", "units", " ", 
+      "of", " ", "\[Mu]eV"}]}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"df", "[", 
      RowBox[{"E0_", ",", "Ef_"}], "]"}], " ", ":=", " ", 
@@ -786,8 +790,8 @@ Cell[BoxData[{
   "\[IndentingNewLine]", 
   RowBox[{"(*", 
    RowBox[{
-   "Different", " ", "values", " ", "of", " ", "Em", " ", "in", " ", "ueV"}], 
-   "*)"}]}], "\[IndentingNewLine]", 
+   "Different", " ", "values", " ", "of", " ", "Em", " ", "in", " ", 
+    "\[Mu]eV"}], "*)"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"Emaj", " ", "=", " ", "10"}], ";"}], "\[IndentingNewLine]", 
@@ -1891,7 +1895,8 @@ FontSlant->\"Italic\"]\)\!\(\*StyleBox[\"eV\",FontSlant->\"Italic\"]\)\>\""}],
    3.8654966623992853`*^9}, {3.865581367807762*^9, 3.865581370563586*^9}, {
    3.8656501797086906`*^9, 3.8656501799221478`*^9}, {3.8656504968724885`*^9, 
    3.8656505040869455`*^9}, {3.8656577930699444`*^9, 
-   3.8656578125232563`*^9}},ExpressionUUID->"2576d396-2e4b-4aa0-8d3d-\
+   3.8656578125232563`*^9}, {3.865736127404787*^9, 
+   3.86573613395722*^9}},ExpressionUUID->"2576d396-2e4b-4aa0-8d3d-\
 1fab2b868ae4"],
 
 Cell[BoxData[
@@ -4556,11 +4561,11 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 80216, 1872, 1412, "Input",ExpressionUUID->"2576d396-2e4b-4aa0-8d3d-1fab2b868ae4"],
-Cell[80799, 1896, 28932, 548, 157, "Output",ExpressionUUID->"9f62cd70-d1e7-4f1e-b23e-747a57989553"],
-Cell[109734, 2446, 28940, 548, 157, "Output",ExpressionUUID->"ca56652c-35f9-40b8-a954-46a8c183814a"]
+Cell[580, 22, 80418, 1877, 1412, "Input",ExpressionUUID->"2576d396-2e4b-4aa0-8d3d-1fab2b868ae4"],
+Cell[81001, 1901, 28932, 548, 157, "Output",ExpressionUUID->"9f62cd70-d1e7-4f1e-b23e-747a57989553"],
+Cell[109936, 2451, 28940, 548, 157, "Output",ExpressionUUID->"ca56652c-35f9-40b8-a954-46a8c183814a"]
 }, Open  ]],
-Cell[138689, 2997, 82515, 1540, 133, "Input",ExpressionUUID->"88be3a51-d888-4591-8b50-116545199f61"]
+Cell[138891, 3002, 82515, 1540, 133, "Input",ExpressionUUID->"88be3a51-d888-4591-8b50-116545199f61"]
 }
 ]
 *)
